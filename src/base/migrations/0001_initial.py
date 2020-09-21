@@ -7,8 +7,8 @@ from django.conf import settings
 
 def forward(apps, schema_editor):
     User = get_user_model()
-    if not User.objects.filter(email='admin@admin.com').exists():
-        User.objects.create_superuser(email='admin@admin.com', password='adminadmin', nome='Administrador')
+    if not User.objects.filter(username='admin').exists():
+        User.objects.create_superuser(username='admin', password='adminadmin')
 
 
 def reverte(apps, schema_editor):
