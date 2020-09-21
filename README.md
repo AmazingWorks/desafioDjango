@@ -8,6 +8,9 @@ etapa executada seja feita o mais completo possível.
 Nestas etapas, vamos sugerir modificações, porem tente manter a estrutura de projeto e fazer testes de integração
 quando achar necessário. Se ainda não sabe fazer testes, deixe claro na entrega do seu desafio.
 
+A entrega do desafio deve ser feita com o link do seu repositório de código (pode usar qualquer um que disponibilize um 
+visualizador web como por exemplo: bitbucket, github ou gitlab)
+
 ## Regras
 
 * Não faça fork desse projeto
@@ -15,6 +18,12 @@ quando achar necessário. Se ainda não sabe fazer testes, deixe claro na entreg
 * Fique atendo para não "commitar" arquivos desnecessários
 * Foque incialmente em resolver os problemas descritos nas etapas, mas não deixe de dar seu toque especial
 para melhorar a solução como um todo.
+
+### Recomendações
+
+* Use o `virtualenv`, fique a vontade para usar o `pipenv` se quiser
+* Comentários no código são bem vindos
+* Em caso de dúvidas, envie um email.
 
 ### Ambiente
 
