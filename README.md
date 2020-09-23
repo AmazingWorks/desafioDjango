@@ -13,7 +13,7 @@ visualizador web como por exemplo: bitbucket, github ou gitlab)
 
 ## Regras
 
-* Não faça fork desse projeto
+* Não faça fork desse projeto, copie/utilize o código deste repositório, mas crie um repositório separado para ele.
 * Utilize sempre ETAPA referente a mensagem de seus commits
 * Fique atendo para não "commitar" arquivos desnecessários
 * Foque incialmente em resolver os problemas descritos nas etapas, mas não deixe de dar seu toque especial
@@ -56,7 +56,7 @@ para melhorar a solução como um todo.
 * Adicionar um campo de `posicao` em propriedade
 * Adicionar no admin uma forma de cadastrar esse ponto (dica: `django-leaflet`)
 * Crie um endpoint que retorne os imóveis mais proximos de um ponto (lat, long)
-* Ordenar estes pontos pela distancia do ponto (lat, long) informado.
+* Ordenar estes pontos pela distancia em linha reta do ponto (lat, long) informado.
 
 ## Etapa INFRA
 
